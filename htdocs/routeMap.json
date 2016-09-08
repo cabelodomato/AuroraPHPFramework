@@ -1,0 +1,103 @@
+{
+    "GET": {
+        "type": "php",
+        "page": "404",
+        "path": "",
+        "template": "defaultTemplate",
+        "": {
+            "page": "home"
+        },
+        "about": {
+            "page": "about"
+        },
+        "contact": {
+            "page": "contact"
+        },
+        "started": {
+            "page": "gettingStarted"
+        },
+        "optin": {
+            "page": "newsletter",
+            "optout": {
+                "page": "optout"
+            }
+        },
+        "legal": {
+            "page": "license",
+            "terms": {
+                "page": "terms"
+            },
+            "license": {
+                "page": "license"
+            }
+        },
+        "icon": {
+            "page": "overview",
+            "time": {
+                "page": "time"
+            },
+            "date": {
+                "page": "date"
+            },
+            "year": {
+                "page": "year"
+            },
+            "cardinal": {
+                "page": "cardinal"
+            }
+        },
+        "user": {
+            "signin": {
+                "page": "signin"
+            },
+            "signup": {
+                "page": "signup"
+            },
+            "recover": {
+                "page": "recover"
+            },
+            "logout": {
+                "page": "logout"
+            }
+        },
+        "static": {
+            "path": "./static/",
+            "css": {
+                "type": "css"
+            },
+            "js": {
+                "path": "./static/js/",
+                "type": "js"
+            },
+            "img": {
+                "page": "recover"
+            },
+            "logout": {
+                "page": "logout"
+            }
+        },
+        "error": {
+            "403": {
+                "page": "forbidden"
+            },
+            "404": {
+                "page": "notFound404"
+            }
+        }
+    },
+    "POST": {
+        "": {
+            "page": "home"
+        }
+    },
+    "UPDATE": {
+        "": {
+            "page": "home"
+        }
+    },
+    "DELETE": {
+        "": {
+            "page": "home"
+        }
+    }
+}

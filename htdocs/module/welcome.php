@@ -1,0 +1,1 @@
+<div class="text-center"><h1>Welcome to Iconfont store</h1></div>
